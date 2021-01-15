@@ -1,0 +1,56 @@
+body {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background-image:linear-gradient(rgba(250,250,250,0.8),rgb(50,50,50)), url('/images/contact.png');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 , a {
+    font-weight: 900;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+h1, .btn {
+    color: #fff;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover, a:focus {
+    color: #00FF1E;
+}
+
+.btn {
+    margin: 40PX;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #d616a6;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover, .btn:focus{
+    background: #00FF1E;
+    color: black;
+    border-radius: 20px;
+}
+.container {
+    width: 600px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.title-section {
+    margin-top: 10%;
+    width: 450px;
+    background: #83199e;
+    padding: 15px;
+    text-transform: uppercase;
+}
